@@ -3,7 +3,7 @@ import awsconfig from './aws-exports'
 
 Amplify.configure(awsconfig)
 
-// Storage.configure({ level: 'public' })
+Storage.configure({ level: 'public' })
 
 const createAudioPlayer = track => {
   Storage.get(track.key).then(result => {
