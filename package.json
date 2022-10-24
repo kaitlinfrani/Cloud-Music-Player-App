@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "aws-amplify": "^4.3.39"
+  },
+  "devDependencies": {
+    "parcel": "^2.7.0"
+  },
+  "name": "cloud-music-player-app",
+  "description": "This project will provide users a way to listen to music without any installation or subscription of music streaming services. Users must upload their song files onto the website. The website will store the song files to the AWS Cloud. Users can additionally share their music with other users. The website will prompt the user to upload a song or listen to a song that has been previously uploaded. Once songs get uploaded, users can organize them into playlists.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel src/index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaitlinfrani/Cloud-Music-Player-App.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaitlinfrani/Cloud-Music-Player-App/issues"
+  },
+  "homepage": "https://github.com/kaitlinfrani/Cloud-Music-Player-App#readme"
+}
