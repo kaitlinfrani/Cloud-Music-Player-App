@@ -17,6 +17,10 @@ const createAudioPlayer = track => {
   })
 }
 
+const file = document.getElementById('file-upload').files[0]
+Storage.put(file.name, file)
+
+/*
 document.getElementById('upload-form').addEventListener('submit', e => {
   e.preventDefault()
   const file = document.getElementById('file-upload').files[0]
@@ -25,7 +29,7 @@ document.getElementById('upload-form').addEventListener('submit', e => {
       createAudioPlayer(result)
     })
     .catch(err => console.error(err))
-})
+})*/
 
 Storage.list('')
   .then(result => {
