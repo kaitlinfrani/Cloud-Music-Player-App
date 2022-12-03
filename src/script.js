@@ -3,6 +3,7 @@ import awsconfig from './aws-exports'
 
 Amplify.configure(awsconfig)
 
+/*
 document.getElementById('upload-form').addEventListener('submit', e => {
   e.preventDefault()
   const file = document.getElementById('file-upload').files[0]
@@ -34,7 +35,6 @@ Storage.list('')
         audio.appendChild(source)
         audio.setAttribute('controls', '')
         source.setAttribute('src', result)
-        //source.setAttribute('', result)
         source.setAttribute('type', 'audio/mpeg')
 
         document.querySelector('.tracks').appendChild(audio)
@@ -42,13 +42,13 @@ Storage.list('')
     })
   })
   .catch(err => console.error(err))
+*/
 
 
 
 
-/*
-Storage.configure({ level: 'public' })
 
+// from sample
 const createAudioPlayer = track => {
   Storage.get(track.key).then(result => {
     const audio = document.createElement('audio')
@@ -60,10 +60,6 @@ const createAudioPlayer = track => {
     document.querySelector('.tracks').appendChild(audio)
   })
 }
-
-const file = document.getElementById('file-upload').files[0]
-Storage.put(file.name, file)
-
 
 document.getElementById('upload-form').addEventListener('submit', e => {
   e.preventDefault()
@@ -80,4 +76,3 @@ Storage.list('')
     result.forEach(item => createAudioPlayer(item))
   })
   .catch(err => console.error(err))
-  */
