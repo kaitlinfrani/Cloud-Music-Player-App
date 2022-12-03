@@ -1,3 +1,4 @@
+// command to put in terminal to start website npm start
 import Amplify, { Storage } from 'aws-amplify'
 import awsconfig from './aws-exports'
 
