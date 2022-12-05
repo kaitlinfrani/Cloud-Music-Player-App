@@ -7,3 +7,10 @@ This project will provide users a way to listen to music without any installatio
 ## Project Setup Environment
 
 The setup environment will be using AWS. A few AWS services will be used: Amazon S3 buckets for storage (back end development) and AWS Amplify for front end development. Along with the AWS services, HTML and javascript will be used for the interface and full functionality of the website. Possible APIs could be added to provide better functionality.
+
+## Features
+
+* Upload any mp3 music file
+* Play the songs uploaded
+* Change playback speed of songs
+* Re-download songs
