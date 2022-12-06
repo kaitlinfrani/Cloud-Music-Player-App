@@ -14,3 +14,15 @@ The setup environment will be using AWS. A few AWS services will be used: Amazon
 * Play the songs uploaded
 * Change playback speed of songs
 * Re-download songs
+
+
+## Requirements & How to Run
+
+* Create an AWS account
+* Run 'npm install' to install packages
+* Run 'amplify init' to initialize a new AWS project
+* Add authentication for S3 permissions
+    * Run amplify add auth
+* Run amplify add storage
+* Run amplify push to deploy resources
+* Run npm i aws-amplify to install AWS Amplify Javascript libraries
