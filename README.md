@@ -2,7 +2,7 @@
 
 ## Project Description
 
-This project will provide users a way to listen to music without any installation or subscription of music streaming services. Users must upload their song files onto the website. The website will store the song files to the AWS Cloud. Users can additionally share their music with other users. The website will prompt the user to upload a song or listen to a song that has been previously uploaded. Once songs get uploaded, users can organize them into playlists.
+This project will provide users a way to listen to music without any installation or subscription of music streaming services. Users must upload their song files onto the website. The website will store the song files to the AWS Cloud. Users can additionally share their music with other users. The website will prompt the user to upload a song. Once songs get uploaded, users can listen to them locally. Users can change the playback speed, re-download songs, and upload additional songs.
 
 ## Project Setup Environment
 
