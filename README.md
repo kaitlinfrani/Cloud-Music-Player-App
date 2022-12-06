@@ -1,4 +1,4 @@
-# Cloud-Music-Player-App
+# Cloud-Music-Player-App: Music Bucket
 
 ## Project Description
 
